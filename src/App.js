@@ -116,6 +116,7 @@ export default function App() {
         concurrent
         colorManagement
         camera={{ position: [0, 0, 1], fov: 70 }}
+        gl={{ antialias: true }}
       >
         <Lights />
         <Suspense fallback={null}>
