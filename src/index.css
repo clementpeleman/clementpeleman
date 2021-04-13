@@ -114,10 +114,7 @@ h1, h2{
 .loading-bar-container {
   width: 100px;
   height: 32px;
-  background: #ffaaa7;
-  display: grid;
-  justify-content: center;
-  align-content: center;
+  background: #ffb4b0;
 }
 
 .loading-bar {
