@@ -122,5 +122,9 @@ h1, h2{
   background: #ffd3b4;
 }
 
+.ContactPage{
+  height: 100vh;
+  background-color: white;
+}
 
 

@@ -1,9 +1,11 @@
+import React from "react";
+
 const Header = () => {
   return (
     <div className="header">
-      <a href="#">clement peleman</a>
+      <a href="/">clement peleman</a>
       <div className="header-right">
-        <a href="#contact">contact</a>
+        <a href="/contact">contact</a>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import State from "./components/State";
+import Contact from "./components/Contact";
 import { Section } from "./components/Section";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Suspense, useRef, useEffect, useState } from "react";
@@ -113,6 +114,7 @@ export default function App() {
   return (
     <>
       <Header />
+
       <Canvas
         concurrent
         colorManagement
@@ -145,7 +147,7 @@ export default function App() {
             RotationY={Math.PI}
           >
             <h1>fik.</h1>
-            <h2> new firepit experience </h2>
+            <h2>new firepit experience </h2>
           </HTMLContent>
         </Suspense>
       </Canvas>
