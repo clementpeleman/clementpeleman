@@ -73,6 +73,7 @@ const HTMLContent = ({
             RotX={RotationX}
             RotY={RotationY}
           />
+          <meshStandardMaterial color="blue" />
         </mesh>
         <Html fullscreen portal={domContent}>
           <div ref={refItem} className="container">
@@ -123,7 +124,7 @@ export default function App() {
           <HTMLContent
             domContent={domContent}
             bgColor="#ffaaa7"
-            modelPath="/model/shoe_dispenser.glb"
+            modelPath="/model/shoe_dispenser.gltf"
             position={2.1}
             PositionX="0.7"
             PositionY="-4"
@@ -136,7 +137,7 @@ export default function App() {
           <HTMLContent
             domContent={domContent}
             bgColor="#98ddca"
-            modelPath="/model/fik.glb"
+            modelPath="/model/fik.gltf"
             position={0}
             PositionX="0.6"
             PositionY="-3.7"
